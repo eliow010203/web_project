@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>웅진그룹</title>
+
+  <!-- css서식 -->
+  <link rel="stylesheet" href="./css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./css/base.css" type="text/css">
+  <link rel="stylesheet" href="./css/main.css" type="text/css">
+
+  <!-- 아이콘 -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 해더영역 -->
+  <header>
+    <div class="header">
+      <a href="./index.html" title="메인페이지로 바로가기"><img src="./img/logo.svg" alt=""></a>
+      <div class="gnb">
+        <ul>
+          <li>
+            <a href="">그룹소개</a>
+            <ul class="sub">
+              <li><a href="javascript:void(0)">그룹개요</a></li>
+              <li><a href="javascript:void(0)">경영정신</a></li>
+              <li><a href="./ci.html">CI</a></li>
+              <li><a href="javascript:void(0)">연혁</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="javascript:void(0)">사업영역</a>
+            <ul class="sub">
+              <li><a href="javascript:void(0)">웅진IT</a></li>
+              <li><a href="javascript:void(0)">웅진씽크빅</a></li>
+              <li><a href="javascript:void(0)">웅진북센</a></li>
+              <li><a href="javascript:void(0)">렉스필드 컨트리클럽</a></li>
+              <li><a href="javascript:void(0)">웅진플레이도시</a></li>
+              <li><a href="javascript:void(0)">웅진컴퍼스</a></li>
+              <li><a href="javascript:void(0)">웅진투투럽</a></li>
+              <li><a href="javascript:void(0)">놀이의발견</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="javascript:void(0)">지속가능경영</a>
+            <ul class="sub">
+              <li><a href="javascript:void(0)">웅진재단</a></li>
+              <li><a href="javascript:void(0)">사회공헌</a></li>
+              <li><a href="javascript:void(0)">윤리경영</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="javascript:void(0)">인재채용</a>
+            <ul class="sub">
+              <li><a href="javascript:void(0)">인사철학</a></li>
+              <li><a href="javascript:void(0)">인사제도</a></li>
+              <li><a href="javascript:void(0)">직무소개</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="javascript:void(0)">고객센터</a>
+            <ul class="sub">
+              <li><a href="javascript:void(0)">계열사 문의</a></li>
+              <li><a href="javascript:void(0)">법적고지</a></li>
+              <li><a href="javascript:void(0)">영상정보처리방침</a></li>
+              <li><a href="javascript:void(0)">개인정보 처리방침</a></li>
+              <li><a href="javascript:void(0)">사이트맵</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- 메인영역 -->
+  <main>
+
+    <!-- 검색모달 -->
+    <div id="search_page">
+      <div id="search_bar">
+        <p class="p01">검색</p>
+        <div class="search_wrap">
+          <input type="search" placeholder="검색어를 입력하세요">
+          <span class="material-icons" id="search_btn">
+            search
+          </span>
+        </div>
+        <span class="material-icons" id="search_close">
+          close
+        </span>
+        <p class="p02">검색기록</p>
+        <span class="material-icons" id="search_toggle">
+          expand_more
+        </span>
+      </div>
+    </div>
+
+    <!-- 플로트 메뉴 -->
+    <div id="floatmenu">
+      <div id="top">
+        <span class="material-icons">
+          arrow_upward
+        </span>
+      </div>
+      <div id="search">
+        <span class="material-icons">
+          search
+        </span>
+      </div>
+    </div>
+
+    <!-- 메인 비주얼 -->
+    <div id="mainVisual">
+      <div id="frame"></div>
+      <div class="bigbox">
+        <img src="./img/icon01.svg" alt="" class="mainitem m_item01">
+        <img src="./img/icon02.svg" alt="" class="mainitem m_item02">
+        <img src="./img/icon03.svg" alt="" class="mainitem m_item03">
+        <img src="./img/icon04.svg" alt="" class="mainitem m_item04">
+        <img src="./img/icon05.svg" alt="" class="mainitem m_item05">
+        <img src="./img/icon06.svg" alt="" class="mainitem m_item06">
+      </div>
+      <div id="ring">
+        <img src="./img/ring01.png" alt="">
+        <img src="./img/ring02.png" alt="">
+        <img src="./img/ring03.png" alt="">
+        <img src="./img/ring04.png" alt="">
+      </div>
+      <img src="./img/logo.svg" alt="" id="main_logo">
+    </div>
+
+
+    <!-- 배경 오브젝트 -->
+    <div id="bgobject">
+      <div id="ob01">
+        <img src="./img/object01.svg" alt="">
+      </div>
+      <div id="ob02">
+        <img src="./img/object02.svg" alt="">
+      </div>
+      <div id="ob03">
+        <div id="back-img-fix"></div>
+        <img src="./img/bgimgcover.svg" alt="">
+      </div>
+      <div id="ob04">
+        <img src="./img/object03.svg" alt="">
+      </div>
+    </div>
+
+
+    <!-- 회사소개 -->
+    <div class="intro_txt">
+      <div class="intro_p">
+        <p class="title01">웅진은 남과 <span>다르게</span> 보고 <span>새롭게</span> 생각합니다.</p>
+        <p class="txt01">
+          웅진그룹은 1980년 창립 이후 창조적 발상으로<br>
+          고객의 삶을 향상시키고 새로운 문화를 창출해 왔습니다.<br>
+          교육·출판으로 시작하여<br>
+          생활환경과 식품사업으로 영역을 넓혀 성장하였고,<br>
+          2007년 지주회사 체제를 수립하여<br>
+          세계적인 경쟁력 확보를 위한 발판을 마련하였습니다.<br>
+          웅진은 새로운 사업분야에 진출하여 끊임없는 도전을<br>
+          성공으로 이끌어 나가는 동시에 웅진의 창조혁신을 꽃피운<br>
+          긍정과 사랑의 정신을 소중하게 키우고 있습니다.
+        </p>
+      </div>
+
+      
+      <div class="intro_cir">
+        <a href="javascript:void(0)" title="웅진소개 바로가기">
+          <img src="./img/main_logo.png" alt="">
+        </a>  
+      </div>
+
+
+    </div>
+
+    <!-- 사업소개 -->
+    <div class="work_info">
+      <div id="worklist">
+        <div class="workitem work01">
+          <img src="./img/logo01.png" alt="">
+          <div class="infowrap">
+            <p class="title02">웅진 IT</p>
+            <p class="sub_title01">클라우드에 최적화된 IT솔루션을 제공합니다!</p>
+            <p class="info01">
+              웅진은 디지털 혁신과 미래가치창출을 선도하는 IT컨설팅 파트너 입니다.
+              17년간의 IT프로젝트 수행 노하우로 다져진 웅진의 ‘직접경험’을 통해 기업고객을 위한 디지털 비즈니스를 제공합니다.
+              주요 사업 영역으로는 SAP ERP분야와 &lt;S/4HANA, Business One&gt; 클라우드&lt;AWS, Microsoft,
+              Google, 네이버, 카카오&gt;를 비롯해 스마트공장, 스마트물류에 강점이 있습니다.
+              특히 웅진그룹의 렌탈 노하우와 IT기술이 융합된 &lt;WRMS&gt;는 국내 유일한 렌탈 종합 플랫폼으로 렌탈 기업의 필수 도구로 자리잡고 있습니다.
+              웅진이 보유한 높은 수준의 수행 능력과 독보적인 전문성은 고객이 추구하는 가치를 창출할 수 있는 방향을 제시하고 고객의 성장에 기여합니다.
+
+            </p>
+
+          </div>
+          <a href="javascript:void(0)" title="웅진 IT바로가기">바로가기</a>
+        </div>
+        <div class="workitem work02">
+          <img src="./img/logo02.png" alt="">
+          <div class="infowrap">
+            <p class="title02">웅진씽크빅</p>
+            <p class="sub_title01">4차 산업혁명 시대, AI 학습코칭을 선보입니다!</p>
+            <p class="info01">
+              웅진씽크빅은 태블릿 기반의 독서/학습 서비스인 &lt;웅진북클럽&gt;을 론칭하며 에듀테크 시장을 이끌고 있습니다.
+              웅진북클럽은 국내 150개 출판사, 해외 100대 출판사의 유명 도서를 비롯한 다양한 콘텐츠를 제공하고 있으며,
+              방문학습, 공부방, 센터, 화상교육 등의 학습서비스를 제공하고 있습니다.
+              2018년, 미국 실리콘밸리의 에듀테크 전문 기업 ‘키드앱티브’의 지분투자를 단행했으며,
+              인공지능기반의 북클럽 AI 학습코칭을 선보이며 4차 산업혁명시대의 교육시장 선두주자로 거듭나고 있습니다.
+
+            </p>
+
+          </div>
+          <a href="javascript:void(0)" title="웅진씽크빅 바로가기">바로가기</a>
+        </div>
+        <div class="workitem work03">
+          <img src="./img/logo03.png" alt="">
+          <div class="infowrap">
+            <p class="title02">웅진북센</p>
+            <p class="sub_title01">국내 1위 도서물류 전문기업</p>
+            <p class="info01">
+              웅진북센은 도서물류분야 국내 1위 기업으로 도서/출판시장의 출판유통구조 선진화를 위해 노력하고 있습니다.
+              경기도 파주에 연면적 15,000평 규모의 최첨단 물류시스템을 갖추고 있으며, 출판사와 전국의 중소형 서점을 이어주고 있습니다.
+              대도시는 물론 중소도시의 문화생활이 가능하도록 출판계의 중추적 역할을 해나가겠습니다.
+
+            </p>
+            
+          </div>
+          <a href="javascript:void(0)" title="웅진북센 바로가기">바로가기</a>
+        </div>
+        <div class="workitem work04">
+          <img src="./img/logo04.png" alt="">
+          <div class="infowrap">
+            <p class="title02">렉스필드 컨트리클럽</p>
+            <p class="sub_title01">뛰어난 자연비경을 즐길 수 있는 5대 명문 컨트리클럽</p>
+            <p class="info01">
+              경기도 여주시에 위치한 렉스필드는 국내를 대표하는 5대 명문 골프장입니다.
+              폭포와 계곡, 백조와 사슴이 노니는 바위와 낙락장송, 국내 최초의 꽃잎형 벙커 등 색다른 코스와 비경은 고객의 만족을 자아내고 있습니다.
+              최적의 접근성(서울 강남에서 40분)을 갖추고 있으며, 골프장 최초로 환경부 장관상을 수상하고, 친환경 골프장 Best TOP에 선정되었습니다.
+
+
+            </p>
+            
+          </div>
+          <a href="javascript:void(0)" title="렉스필드 컨트리클럽 바로가기">바로가기</a>
+        </div>
+        <div class="workitem work05">
+          <img src="./img/logo05.png" alt="">
+          <div class="infowrap">
+            <p class="title02">웅진플레이도시</p>
+            <p class="sub_title01">온 가족이 즐기는 국내 유일의 패밀리 테마파크</p>
+            <p class="info01">
+              경기도 부천에 위치한 웅진플레이도시는 자녀와 함께 즐길 수 있는 가족형 테마파크입니다.
+              수도권 최대 워터파크&스파와 비거리 360야드, 200개의 타석 규모를 자랑하는 프리미엄 골프연습장을 보유하고 있으며
+              온 가족이 즐길 수 있는 다양한 컨텐츠를 제공합니다.
+
+            </p>
+            
+          </div>
+          <a href="javascript:void(0)" title="웅진플레이도시 바로가기">바로가기</a>
+        </div>
+        <div class="workitem work06">
+          <img src="./img/logo06.png" alt="">
+          <div class="infowrap">
+            <p class="title02">웅진컴퍼스</p>
+            <p class="sub_title01">세상에서 가장 신나는 영어학습을 실현하는 영어교육 전문기업</p>
+            <p class="info01">
+              웅진컴퍼스는 전 연령을 아우르는 영어콘텐츠를 제공하는 영어교육전문기업입니다.
+              영어 원서는 영어권 국가에서 만든다는 선입견에 맞서 국내 시장은 물론 전 세계 40여개국에 영어교재를 수출하고 있습니다.
+              영어교재로 쌓아 온 전문성에 디지털 기술을 접목한 재미있는 맞춤교육 서비스인 ‘BIGBOX’를 제공하고 있습니다.
+
+            </p>
+            
+          </div>
+          <a href="javascript:void(0)" title="웅진컴퍼스 바로가기">바로가기</a>
+        </div>
+        <div class="workitem work07">
+          <img src="./img/logo07.png" alt="">
+          <div class="infowrap">
+            <p class="title02">웅진투투럽</p>
+            <p class="sub_title01">아름다움과 건강을 위한 프리미엄 글로벌 브랜드를 만나보세요!</p>
+            <p class="info01">
+              웅진투투럽은 세계 각국 뷰티/헬스 분야의 프리미엄 제품을 엄선하여 선보이고 있습니다.
+              86개국에 수출되는 미국의 프리미엄 에스테틱 브랜드 ‘더말로지카’, 세계적인 면세점 T 갤러리아 DFS의
+              건강기능식품분야 판매 1위 브랜드 ‘블루검’ 등 최고의 제품만을 제공하겠습니다.
+
+            </p>
+            
+          </div>
+          <a href="javascript:void(0)" title="웅진투투럽 바로가기">바로가기</a>
+        </div>
+        <div class="workitem work08">
+          <img src="./img/logo08.png" alt="">
+          <div class="infowrap">
+            <p class="title02">놀이의발견</p>
+            <p class="sub_title01">놀이 중심의 새로운 육아 문화를 선도합니다.</p>
+            <p class="info01">
+              놀이의발견은 국내 1등 키즈 액티비티 O2O 서비스로, 아이를 위한 세상 모든 경험으로 가득한 라이프스타일 앱 플랫폼입니다.
+              웅진플레이도시, 에버랜드 등 대형 테마파크부터 동네 공방, 키즈카페에 이르는 10,000가지 이상의 다양한 놀이 콘텐츠를 판매하고 예약하는 서비스를 제공합니다.
+              또 놀이와 학습을 결합한 체험 프로그램과 온라인 놀이수업 등 새로운 놀이 콘텐츠를 연구하고 개발합니다.
+              2019년, 플랫폼을 출시한 첫해에 구글플레이의 출산・육아 부문 앱 다운로드 1위를 기록하며 “올해를 빛낸 숨은 보석 앱”으로 선정되었습니다.
+              놀이의발견은 업계 선두주자로서, 지속적으로 놀이 중심의 건강하고 유익한 육아 문화를 제안하고 선도하겠습니다.
+
+            </p>
+
+          </div>
+          <a href="javascript:void(0)" title="놀이의발견 바로가기">바로가기</a>
+        </div>
+      </div>
+      <div class="info_unit">
+        <p class="work_title"><span>사업</span>영역</p>
+        <p class="work_sub">
+          웅진은 다양한 사업을 통하여<br>
+          끊임없이 도전하고 연구하고 있습니다.
+        </p>
+        <a href="javascript:void(0)">더보기</a>
+      </div>
+    </div>
+
+    <!-- 또또사랑 -->
+    <div class="ttotto">
+      <p class="ttotitle">또또<br>사랑</p>
+      <p class="ttoinfo">
+        또또사랑이란, 사랑하고, 또 사랑하고, 또 사랑하는<br>
+        마음을 의미하는 웅진만의 독특한 경영정신으로<br>
+        웅진의 창업자인 윤석금 회장이 직접 만든 용어 입니다.<br>
+        이는 자신이 좋아하는 일은 누가 시키지 않아도<br>
+        열심히 하고, 자신이 좋아하지 않는 일에는 현격히 능률이 떨어지는<br>
+        한국인만의 '신기'문화로부터 시작되었습니다.
+      </p>
+    </div>
+
+
+    <!-- 인사철학 -->
+    <div class="cre">
+      <p><span>인사</span> 철학</p>
+      <div class="cre_cir">
+        <div class="item" id="item01"><span class="material-icons">language</span><div class="select"></div></div>
+        <div class="item" id="item02"><span class="material-icons">school</span><div class="select"></div></div>
+        <div class="item" id="item03"><span class="material-icons">bar_chart</span><div class="select"></div></div>
+        <div class="item" id="item04"><span class="material-icons">chat_bubble</span><div class="select"></div></div>
+      </div>
+      <div class="bg_cir"></div>
+      <div class="cir_info">
+
+        <div id="info01">
+          <span class="material-icons">language</span>
+          <p class="title">혁신하는 창의인</p>
+          <p class="text">
+            항상 새로운 것을 찾으며<br>
+            혁신과 독창성을 추구하는 사람
+          </p>
+        </div>
+
+        <div id="info02">
+          <span class="material-icons">school</span>
+          <p class="title">학습하는 전문인</p>
+          <p class="text">
+            끊임없는 학습을 통해 자신을 성장시키고<br>
+            프로정신과 담당업무에 대한 전문지식을<br>
+            겸비한 사람
+          </p>
+        </div>
+
+        <div id="info03">
+          <span class="material-icons">bar_chart</span>
+          <p class="title">성취하는 열정인</p>
+          <p class="text">
+            끈기, 추진력, 의지, 일에 대한<br>
+            열정을 지니고 자기 일에 책임을<br>
+            다하는 사람
+          </p>
+        </div>
+
+        <div id="info04">
+          <span class="material-icons">chat_bubble</span>
+          <p class="title">협력하는 조직인</p>
+          <p class="text">
+            인간관계와 팀워크를 중시하고<br>
+            유연한 사고로 더불어 일할 줄 아는 사람
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 연혁 -->
+    <div class="since">
+      <div class="ring_box">
+        <img src="./img/ring01.png" alt="" class="since_ring01">
+        <img src="./img/ring02.png" alt="" class="since_ring02">
+        <img src="./img/ring03.png" alt="" class="since_ring03">
+        <img src="./img/ring04.png" alt="" class="since_ring04">
+      </div>
+      <img src="./img/object04.svg" alt="" class="item01">
+      <img src="./img/object05.svg" alt="" class="item02">
+      <img src="./img/since.png" alt="" class="item03">
+      <div class="txt_box">
+        <p class="title"><span>Since</span> 1980</p>
+        <p class="txt01">
+          <span>1980</span>년 부터<br><span>2022</span>년 까지
+        </p>
+        <a href="javascript:void(0)" title="웅진의 발자취 보러가기">
+          <p class="txt02"><span>웅진</span>의 발자취 보러가기</p>
+
+        </a>
+      </div>
+    </div>
+
+
+
+
+
+
+  </main>
+
+  <!-- 푸터영역 -->
+  <footer>
+    <div class="footer">
+      <a href="index.html" title="메인페이지로 바로가기"><img src="./img/footer_logo.png" alt=""></a>
+      <address>
+        서울시 중구 청계천로 24 케이스퀘어빌딩 6~9층<br>
+        <br>
+        COPYRIGHT 2008 WOONGJIN CORPORATION ALL RIGHT RESERVED.
+      </address>
+      <ul class="side">
+        <li><a href="javascript:void(0)" title="웹접근성 정책 안내">웹접근성 정책 안내</a></li>
+        <li><a href="javascript:void(0)" title="법적고지">법적고지</a></li>
+        <li><a href="javascript:void(0)" title="영상정보처리방침">영상정보처리방침</a></li>
+        <li><a href="javascript:void(0)" title="개인정보 처리방침">개인정보 처리방침</a></li>
+      </ul>
+      <div class="family-site"  id="f_menu">
+            
+            <ul>
+              <li><a href="http://www.woongjin.co.kr/main/main.do" target="_blank">웅진IT</a></li>
+              <li><a href="http://www.wjthinkbig.com" target="_blank">웅진씽크빅</a></li>
+              <li><a href="http://www.wjbooxen.com/" target="_blank">웅진북센</a></li>
+              <li><a href="http://www.rexfield.com/index.asp" target="_blank">렉스필드 컨트리클럽</a></li>
+              <li><a href="http://www.playdoci.com/index.aspx" target="_blank">웅진플레이도시</a></li>
+              <li><a href="http://www.wjcompass.com" target="_blank">웅진컴퍼스</a></li>
+              <li><a href="http://www.dermalogica.co.kr" target="_blank">웅진투투럽</a></li>
+              <li><a href="https://nolbal.com" target="_blank">놀이의발견</a></li>
+              <li id="f_btn">
+                <p>
+                  FAMILY SITE
+                </p>
+                <span class="material-icons">
+                  expand_less
+                </span>
+              </li>
+            </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let itemContain = document.getElementById('frame')
+    let top_btn = document.getElementById('top')
+    let search_btn = document.getElementById('search')
+    let search_toggle = document.getElementById('search_toggle')
+    let search_wrap = document.getElementById('search_bar')
+    let search_close = document.getElementById('search_close')
+    let search_All = document.getElementById('search_page')
+    
+    let itemContainChild = itemContain.childNodes
+    let timecNum = 0
+        
+    let s_toggle = 0
+    let speed = 5
+    let top_toggle = 1
+    
+    let wrapEl = document.getElementsByClassName('cre_cir')[0]
+    let iconEl = document.getElementsByClassName('item')
+    let bgEl = document.getElementsByClassName('bg_cir')[0]
+    let roNum = 0
+    let roCoolDown = 0
+    let roRapDown = 0
+
+    let select_ring = document.getElementsByClassName('select')
+
+    let cre01_btn = document.getElementById('item01')
+    let cre02_btn = document.getElementById('item02')
+    let cre03_btn = document.getElementById('item03')
+    let cre04_btn = document.getElementById('item04')
+
+    let select_num = 0;
+
+    cre01_btn.addEventListener('click',function(){select_cre(0);roCoolDown=150})
+    cre02_btn.addEventListener('click',function(){select_cre(1);roCoolDown=150})
+    cre03_btn.addEventListener('click',function(){select_cre(2);roCoolDown=150})
+    cre04_btn.addEventListener('click',function(){select_cre(3);roCoolDown=150})
+
+    select_cre(0);
+    function select_cre(num){
+      select_num=num
+      for(cirNum=0;cirNum<select_ring.length;cirNum++){
+        if(cirNum==num){
+          select_ring[cirNum].style.opacity='1'
+          let item_info = document.getElementById(`info0${cirNum+1}`)
+          item_info.style.opacity='1'
+        }else{
+          select_ring[cirNum].style.opacity='0'
+          let item_info = document.getElementById(`info0${cirNum+1}`)
+          item_info.style.opacity='0'
+        }
+      }
+      
+    }
+
+
+    function rotate() {
+        roNum++
+        if(roCoolDown>0){
+          roCoolDown--
+        }
+
+        if(roCoolDown==0){
+          roRapDown++
+          if(roRapDown>=300){
+            if(select_num==3){
+              select_num=0
+            }else{
+              select_num++
+            }
+            for(cirNum=0;cirNum<select_ring.length;cirNum++){
+              if(cirNum==select_num){
+                select_ring[cirNum].style.opacity='1'
+                let item_info = document.getElementById(`info0${cirNum+1}`)
+                item_info.style.opacity='1'
+              }else{
+                select_ring[cirNum].style.opacity='0'
+                let item_info = document.getElementById(`info0${cirNum+1}`)
+                item_info.style.opacity='0'
+              }
+            }
+            roRapDown=0
+          }
+        }
+        wrapEl.style.transform=`rotate(${roNum/6}deg)`
+        bgEl.style.transform=`rotate(${(roNum*-1)/6}deg)`
+        for(i=0;i<iconEl.length;i++){
+            iconEl[i].style.transform=`rotate(${(roNum*-1)/6}deg)`
+        }
+
+        if(roNum>=360*6){
+            roNum=0
+        }
+        requestAnimationFrame(rotate)
+    }
+
+    rotate()
+    
+    search_wrap.style.height=`175px`
+    search_toggle.style.marginTop=`80px`
+    search_All.style.display=`none`
+    
+
+
+    let f_menu = document.getElementById('f_menu')
+    let f_btn = document.getElementById('f_btn')
+    let f_toggle = 0
+    f_menu.style.height=`35px`
+
+    f_btn.addEventListener('click',function(){
+      if(f_toggle==0){
+        f_menu.style.height=`315px`
+        f_toggle=1
+      }else{
+        f_menu.style.height=`35px`
+        f_toggle=0
+
+      }
+    })
+    
+
+    search_close.addEventListener('click',function(){
+      search_All.style.opacity=`0`
+      search_All.style.display=`none`
+    })
+
+    search_btn.addEventListener('click',function(){
+      search_All.style.opacity=`100`
+      search_All.style.display=`block`
+    })
+
+    search_toggle.addEventListener('click',function(){
+      if(s_toggle==0){
+        search_wrap.style.height=`475px`
+        search_toggle.style.marginTop=`380px`
+        search_toggle.style.transform=`rotate(180deg)`
+        s_toggle=1
+      }else{
+        search_wrap.style.height=`175px`
+        search_toggle.style.marginTop=`80px`
+        search_toggle.style.transform=`rotate(0deg)`
+        s_toggle=0
+      }
+    })
+
+    top_btn.addEventListener('click',function(){
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      })
+    })
+
+
+
+    window.addEventListener('scroll',function(){
+      if(scrollY>=2){
+        top_toggle=0
+      }else{
+        top_toggle=1
+      }
+    })
+        
+    function alwaysRun() {
+      timecNum++
+        for (let i=0; i<itemContainChild.length; i++) {
+          if(itemContainChild[i].id.substring(0, 3)=='clk'){
+            itemContainChild[i].style.transform=`scale(${(timecNum-(itemContainChild[i].id.substring(3)))*0.1})`
+            itemContainChild[i].style.opacity=`${1-((timecNum-(itemContainChild[i].id.substring(3)))*0.02)}`
+            if(((timecNum-(itemContainChild[i].id.substring(3))))>=100){
+                itemContainChild[i].remove()
+            }
+          }
+
+        }
+
+
+        // 스크롤이 0이 아닐때
+        if(top_toggle==0){
+          top_btn.style.transform=`translateX(-100px)`
+        }
+
+        // 스크롤이 0일때
+        if(top_toggle==1){
+          top_btn.style.transform=`translateX(0px)`
+        }
+        
+        requestAnimationFrame(alwaysRun)
+    }
+    alwaysRun()
+
+    itemContain.addEventListener('click',function(e) {
+      let xPos = e.clientX
+      let yPos = e.clientY
+      let scrollPos=window.scrollY
+      let ranNum = Math.floor(Math.random()*6)+1
+      // console.log(ranNum)
+      let create = document.createElement('div')
+      itemContain.appendChild(create)
+      create.setAttribute('id','clk'+(timecNum))
+      create.style.left=`${(xPos)-15}px`
+      create.style.top=`${(yPos+scrollPos)-15}px`
+      create.style.width=`30px`
+      create.style.height=`30px`
+      if(ranNum==1){create.style.border=`5px solid #C50084`}
+      if(ranNum==2){create.style.border=`5px solid #C4262E`}
+      if(ranNum==3){create.style.border=`5px solid #E98300`}
+      if(ranNum==4){create.style.border=`5px solid #EBB700`}
+      if(ranNum==5){create.style.border=`5px solid #A2AD00`}
+      if(ranNum==6){create.style.border=`5px solid #00A1DE`}
+      create.style.userSelect=`none`
+    })
+
+
+        
+    window.addEventListener('mousemove',function(e) {
+      const wsize = ((window.innerWidth/2)-(e.clientX))
+      const hsize = ((window.innerHeight/2)-(e.clientY))*-1
+      itemX = wsize/10
+      itemY = hsize/10
+      // console.log(itemX, itemY)
+      document.querySelector('.bigbox').style.right=`${itemX}px`
+      document.querySelector('.bigbox').style.top=`${itemY}px`
+    })
+
+
+
+
+  </script>
+</body>
+</html>
